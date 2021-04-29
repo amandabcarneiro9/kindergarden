@@ -1,0 +1,87 @@
+body {
+  font-family: monospace;
+  font-family: "Roboto";
+  margin: 0;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+nav {
+  background-color: #ffffff;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 16px;
+}
+
+nav a:hover {
+  background: #eee;
+}
+.sector {
+  padding: 60px 184px;
+}
+header {
+  background-image: url("../kindergarden/img/banner.jpg");
+  background-size: 100%;
+  position: relative;
+  text-align: initial;
+}
+h1 {
+  color: white;
+  display: inline-block;
+  border-bottom: solid 4px white;
+  padding-bottom: 20px;
+  margin: 0;
+}
+h2 {
+  font-size: 28px;
+}
+.b {
+  color: #ffe964;
+}
+.i {
+  color: #ff523d;
+}
+.k {
+  color: #223c88;
+}
+.main__mission {
+  background-color: #ffe964;
+  text-align: center;
+}
+.main__about {
+  background-color: white;
+}
+.main__team {
+  background-color: #ff523d;
+  color: white;
+}
+.member {
+  text-align: center;
+  margin-bottom: 56px;
+}
+.member:last-child {
+  margin-bottom: 0;
+}
+.member__picture {
+  width: 160px;
+  margin-bottom: 20px;
+}
+.member__name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+footer {
+  background-color: #223c88;
+  color: white;
+}
+
+footer span {
+  font-weight: bold;
+}
